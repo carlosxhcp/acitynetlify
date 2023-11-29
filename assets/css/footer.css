@@ -34,28 +34,35 @@ footer {
     background-color: var(--color-neutral-10);
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    padding: 0.5rem 1.5rem;
+    padding: 0.5rem 0rem;
 }
 
 #footer_logo{
-    display: grid;
-    justify-content: center;
+    margin-left: 10em;
 }
 
 
-
-
-
-
-
+#footer_logo img:hover{
+    filter: brightness(6);
+    transition: 1.3;
+}
 
 .footer-list {
     display: flex;
     justify-content: center;
-    gap: 1.75rem;
+    gap: 1.95rem;
     list-style: none;
     padding: 2em 0em;
 }
+
+.footer_copy {
+    display: flex;
+    justify-content: center;
+    gap: 1.95rem;
+    list-style: none;
+    padding: 2em 0em;
+}
+
 
 .footer-list .footer-link {
     color: var(--color-neutral-30);
@@ -121,6 +128,9 @@ footer {
     }
     .footer-list {
         padding: 0.5em 0em;
+    }
+    #footer_logo{
+        margin-left: 12em;
     }
 }
 
