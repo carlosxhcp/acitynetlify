@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'mont';
+    src: url(/assets/fonts/mont.otf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 3px 10px #ffffff;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5rem 8rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 12rem;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+
+}
+
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-item {
+    margin: 0 50px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 2.2rem;
+    color: #000000;
+    font-weight: 400;
+    font-family: 'mont', sans-serif;
+    transition: 0.2s;
+}
+
+.nav-link:hover {
+    color: rgb(69, 69, 69);
+    transition: 0.2s;
+}
+
+.mobile-menu-icon {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+@media screen and (max-width:730px) {
+    .nav-bar {
+        padding: 1.5rem 2rem;
+    }
+
+    .nav-item {
+        display: none;
+    }
+
+
+    .logo img {
+        width: 8rem;
+    }
+
+
+    .mobile-menu-icon {
+        display: block;
+        margin-left: 40%;
+    }
+
+
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 2rem;
+        
+    }
+
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 5rem;
+    }
+
+    .open {
+        display: block;
+    }
+
+    .icon {
+        width: 4em;
+    }
+}
