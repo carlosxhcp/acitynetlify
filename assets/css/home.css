@@ -3,3 +3,18 @@
     margin:0 auto;
     display: block;
 }
+
+.home-video-mobile {
+    display: none;
+}
+
+@media screen and (max-width:730px) {
+    .home-video {
+        display: none;
+    }
+    .home-video-mobile {
+        width: 80%;
+        margin:0 auto;
+        display: block;
+    }
+}
