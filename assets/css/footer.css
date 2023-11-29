@@ -21,6 +21,7 @@ main {
 }
 
 footer {
+    display: none;
     margin-top: 5%;
     width: 100%;
     color: var(--color-neutral-40);
@@ -34,7 +35,7 @@ footer {
     background-color: var(--color-neutral-10);
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    padding: 3rem 3.5rem;
+    padding: 1rem 1.5rem;
 }
 
 #footer_contacts h1 {
