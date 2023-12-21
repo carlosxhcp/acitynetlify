@@ -43,16 +43,15 @@
         font-family: Arial, Helvetica, sans-serif;
         margin-top: 7%;
         margin-left: 8%;
-        font-size: 1.2em
+        font-size: 1em
  
     }
 
     .price {
-        float: right;
         font-family: Arial, Helvetica, sans-serif;
         margin-top: 7%;
-        margin-right: 8%;
-        font-size: 1.2em
+        margin-left: 8%;
+        font-size: 1em
     }
     .prod-btn {
         font-family: Arial, Helvetica, sans-serif;
@@ -67,18 +66,21 @@
         border: none;
         margin-left: 5px;
         margin-top: 10px;
-        padding: 5px 10px;
-        font-size: 1.3em;
+        padding: 7px 10px;
+        font-size: 1em;
         background-color: rgb(231, 231, 231);
         box-shadow: 0px 0px 5px rgba(161, 161, 161, 0.605);
     }
 
+    .prod-btn a {
+        color: #000;
+    }
     .prod-btn button:focus {
         background-color: #9a9a9a;
     }
     .prod-buy a {
         text-decoration: none;
-        color: #000;
+        color: #7b7b7b;
     }
     .prod-buy button {
         border: none;
