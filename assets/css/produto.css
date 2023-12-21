@@ -1,0 +1,32 @@
+.imgStyle {
+    width: 50px;
+    height: 50px;
+    border: 3px solid grey;
+}
+
+
+
+@media(max-width:870px) {
+
+    .gallery {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+
+    #mainImage {
+        width: 300px;
+        height: 300px;
+    }
+
+    .imgStyle {
+        width: 50px;
+        height: 50px;
+        border: 2px solid rgb(0, 0, 0);
+        maxwidth: 300px
+    }
+    #divId {
+        ;
+    }
+}
