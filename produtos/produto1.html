@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/assets/js/size.js"></script>
     <link rel="stylesheet" href="/assets/css/menu.css">
     <link rel="stylesheet" href="/assets/css/footer.css">
     <link rel="stylesheet" href="/assets/css/shop.css">
@@ -47,25 +48,40 @@
 
     <div class="gallery">
         <img id="mainImage"
-            src="https://imgsv.imaging.nikon.com/lineup/lens/zoom/normalzoom/af-s_dx_18-300mmf_35-56g_ed_vr/img/sample/img_01.jpg" />
+            src="/assets/img/produto1/1.png" />
         <br />
 
         <div id="divId" onclick="changeImageOnClick(event)">
 
             <img class="imgStyle"
-                src="https://imgsv.imaging.nikon.com/lineup/lens/zoom/normalzoom/af-s_dx_18-300mmf_35-56g_ed_vr/img/sample/img_01.jpg" />
+                src="/assets/img/produto1/1.png" />
             <img class="imgStyle"
-                src="https://imgsv.imaging.nikon.com/lineup/lens/zoom/normalzoom/af-s_dx_18-300mmf_35-56g_ed_vr/img/sample/img_02.jpg" />
+                src="/assets/img/produto1/2.png" />
             <img class="imgStyle"
-                src="https://imgsv.imaging.nikon.com/lineup/lens/zoom/normalzoom/af-s_dx_18-300mmf_35-56g_ed_vr/img/sample/img_03.jpg" />
-            <img class="imgStyle"
-                src="https://imgsv.imaging.nikon.com/lineup/lens/zoom/normalzoom/af-s_dx_18-300mmf_35-56g_ed_vr/img/sample/img_03.jpg" />
-
+                src="/assets/img/produto1/3.png" />
         </div>
     </div>
 
+        <div class="name"><p>T-SHIRT ACITY LOGO</p></div>
+        <div class="price"><p>R$139.90</p></div>
+
+
     <script src="/assets/js/gallery.js"></script>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br>
+
+    <div class="prod-btn">
+        <p>Selecione o tamanho desejado:</p>
+        <button onclick="changeLinkHrefM()">M</button>
+        <button onclick="changeLinkHrefG()">G</button>
+        <button onclick="changeLinkHrefGG()">GG</button>
+      </div>
+  
+      <div class="prod-buy">
+        <button><a href="" id="link"><img src="/img/p1/cart.png">COMPRAR </a></button>
+      </div>
+
+
+
 
     <footer>
         <div id="footer_content">
