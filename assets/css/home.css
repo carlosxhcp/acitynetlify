@@ -7,6 +7,10 @@
 .home-video-mobile {
     display: none;
 }
+.home-img {
+    width: 100%;
+    max-width: 100%;
+}
 
 @media screen and (max-width:730px) {
     .home-video {
@@ -16,5 +20,10 @@
         width: 80%;
         margin:0 auto;
         display: block;
+    }
+    .home-img {
+        margin-top: 7%;
+        margin-bottom: 12%;
+        max-height: 100%;
     }
 }

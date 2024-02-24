@@ -2,6 +2,10 @@
     font-family: 'mont';
     src: url(/assets/fonts/mont.otf);
 }
+@font-face {
+    font-family: 'bbb';
+    src: url(/assets/fonts/bbb.ttf);
+}
 
 * {
     padding: 0;
@@ -51,7 +55,7 @@ header {
     font-size: 1.5rem;
     color: #000000;
     font-weight: 400;
-    font-family: 'mont', sans-serif;
+    font-family: 'bbb', sans-serif;
     transition: 0.2s;
 }
 
