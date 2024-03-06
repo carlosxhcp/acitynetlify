@@ -111,7 +111,9 @@
 
     }
 
-    #divId {}
+    #divId {
+        margin-top: 2%;
+    }
 
     .prod-name-price {
         display: flex;
