@@ -4,12 +4,15 @@
         margin-left: 10%;
         margin-right: 10%;
         margin-top: 10%;
-        margin-bottom: 150%;
     }
-    .email {
+    .contato1 {
         font-family: arial;
         font-size: 1.2em;
         color: black;
         text-decoration:underline;
+    }
+    .horario {
+        font-family: arial;
+        font-size: 1.2em;
     }
 }
