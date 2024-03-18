@@ -74,7 +74,7 @@ header {
 
 @media screen and (max-width:930px) {
     .nav-bar {
-        padding: 1.5rem 3rem;
+        padding: 1rem 2.5rem;
     }
 
     .nav-item {
@@ -83,7 +83,7 @@ header {
 
 
     .logo img {
-        width: 8rem;
+        width: 6rem;
     }
 
 
@@ -100,11 +100,11 @@ header {
     }
 
     .mobile-menu ul {
+        margin-top: 10% ;
         display: flex;
         flex-direction: column;
         text-align: center;
-        padding-bottom: 2rem;
-        
+        padding-bottom: 15rem;
     }
 
     .mobile-menu .nav-item {
@@ -117,6 +117,6 @@ header {
     }
 
     .icon {
-        width: 4em;
+        width: 3em;
     }
 }
