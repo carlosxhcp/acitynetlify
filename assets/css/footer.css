@@ -48,6 +48,8 @@ footer {
     gap: 3.95rem;
     list-style: none;
     padding: 2em 0em;
+    font-family: 'bbb', arial;
+
 }
 
 .footer_copy {
@@ -118,12 +120,12 @@ footer {
         padding: 1em 0em;
     }
     .footer-list {
-        padding: 0.5em 0em;
+        padding: 0.0em 0em;
     }
 
     .footer_copy {
         font-size: 0.85em;
-        padding: 1em 0em;
+        padding: 0em 0em;
     }
 }
 
