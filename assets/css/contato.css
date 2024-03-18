@@ -1,0 +1,8 @@
+@media(max-width:870px) {
+    .contato {
+        font-family: 'bbb', arial;
+        margin-left: 10%;
+        margin-top: 10%;
+        margin-bottom: 150%;
+    }
+}
