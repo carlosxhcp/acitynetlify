@@ -14,5 +14,16 @@
     .horario {
         font-family: arial;
         font-size: 1.2em;
+        margin-bottom: 110%;
+    }
+    .instagram-img {
+        float: left;
+        margin-right: 2%;
+    }
+    .instagram {
+        font-family: arial;
+        font-size: 1.1em;
+        text-decoration:underline;
+        color: black;
     }
 }
