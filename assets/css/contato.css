@@ -1,3 +1,32 @@
+.contato {
+    font-family: 'bbb', arial;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+}
+.contato1 {
+    font-family: arial;
+    font-size: 1.2em;
+    color: black;
+    text-decoration:underline;
+}
+.horario {
+    font-family: arial;
+    font-size: 1.2em;
+    margin-bottom: 10%;
+}
+.instagram-img {
+    float: left;
+    margin-right: 2%;
+}
+.instagram {
+    margin-top: 15%;
+    font-family: arial;
+    font-size: 1.1em;
+    text-decoration:underline;
+    color: black;
+}
+
 @media(max-width:870px) {
     .contato {
         font-family: 'bbb', arial;
