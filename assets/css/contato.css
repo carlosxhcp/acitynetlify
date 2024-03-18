@@ -6,4 +6,10 @@
         margin-top: 10%;
         margin-bottom: 150%;
     }
+    .email {
+        font-family: arial;
+        font-size: 1.2em;
+        color: black;
+        text-decoration:underline;
+    }
 }
