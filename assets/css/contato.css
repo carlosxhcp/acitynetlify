@@ -1,58 +1,108 @@
-.contato {
+.email {
     font-family: 'bbb', arial;
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: 10%;
+    margin-top: 6%;
+    font-size: 1.1em;
 }
-.contato1 {
-    font-family: arial;
-    font-size: 1.2em;
-    color: black;
-    text-decoration:underline;
-}
-.horario {
-    font-family: arial;
-    font-size: 1.2em;
-    margin-bottom: 10%;
-}
-.instagram-img {
-    float: left;
-    margin-right: 2%;
-}
-.instagram {
-    margin-top: 15%;
+.email1 {
     font-family: arial;
     font-size: 1.1em;
-    text-decoration:underline;
     color: black;
+    text-decoration:underline;
+    font-family: arial;
+}
+
+
+
+.instagram-img {
+    float: left;
+    margin-right: 1%;
+    width: 4%;
+    margin-left: 10%;
+}
+.instagram1 {
+    font-family: arial;
+    font-size: 1.1em;
+    color: black;
+    text-decoration:underline;
+}
+.instagram1 p {
+    padding-top: 1%;
+    font-family: arial;
+}
+.instagram {
+    margin-bottom: 0%;
+    margin-top: 5%;
+
+}
+
+
+
+.horario {
+    font-family: 'bbb', arial;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    font-size: 1.1em;
+}
+.horario1 {
+    font-family: arial;
+    font-size: 1.1em;
+    color: black;
+    margin-bottom: 15%;
+    font-family: arial;
 }
 
 @media(max-width:870px) {
-    .contato {
+    .email {
         font-family: 'bbb', arial;
         margin-left: 10%;
         margin-right: 10%;
         margin-top: 10%;
+        font-size: 1.1em;
+        margin-bottom: 17%;
     }
-    .contato1 {
+    .email1 {
         font-family: arial;
-        font-size: 1.2em;
+        font-size: 1.1em;
         color: black;
         text-decoration:underline;
     }
-    .horario {
-        font-family: arial;
-        font-size: 1.2em;
-        margin-bottom: 110%;
-    }
+    
+
+
     .instagram-img {
         float: left;
         margin-right: 2%;
+        width: 10%;
+        margin-left: 10%;
     }
-    .instagram {
+    .instagram1 {
         font-family: arial;
         font-size: 1.1em;
-        text-decoration:underline;
         color: black;
+        text-decoration:underline;
+    }
+    .instagram {
+        margin-bottom: 20%;
+        margin-top: 17%;
+    }
+    
+
+
+    .horario {
+        font-family: 'bbb', arial;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 5%;
+        font-size: 1.1em;
+    }
+    .horario1 {
+        font-family: arial;
+        font-size: 1.1em;
+        color: black;
+        text-decoration:underline;
+        margin-bottom: 100%;
     }
 }

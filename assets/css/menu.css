@@ -6,6 +6,10 @@
     font-family: 'bbb';
     src: url(/assets/fonts/bbb.ttf);
 }
+@font-face {
+    font-family: 'caviar';
+    src: url(/assets/fonts/louis.ttf);
+}
 
 * {
     padding: 0;
@@ -20,7 +24,7 @@ header {
 .nav-bar {
     display: flex;
     justify-content: space-between;
-    padding: 2.5rem 8rem;
+    padding: 1.0rem 2rem;
 }
 
 
@@ -30,7 +34,7 @@ header {
 }
 
 .logo img {
-    width: 12rem;
+    width: 10rem;
 }
 
 .nav-list {
@@ -46,13 +50,14 @@ header {
 }
 
 .nav-item {
-    margin: 0 40px;
+    margin: 0 30px;
+    margin-top:10px;
 
 }
 
 .nav-link {
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1.8rem;
     color: #000000;
     font-weight: 400;
     font-family: 'bbb', arial;
