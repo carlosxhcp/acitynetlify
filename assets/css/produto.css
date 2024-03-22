@@ -30,7 +30,7 @@ body {
 }
 
 #divId {
-    margin-left: 3%;
+    
 }
 
 
@@ -136,15 +136,15 @@ body {
     .name {
         font-family: 'bbb', Arial, Helvetica, sans-serif;
         margin-top: 7%;
-        margin-left: 15%;
+        margin-left: 12%;
         font-size: 2.5em
     }
 
     .price {
         font-family: 'caviar', Arial, Helvetica, sans-serif;
-        margin-top: 5%;
-        margin-left: 40%;
-        font-size: 1.7em
+        margin-top: 0%;
+        margin-left: 35%;
+        font-size: 1.8em
     }
 
     .prod-btn {
