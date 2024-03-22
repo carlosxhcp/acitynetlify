@@ -45,7 +45,7 @@ footer {
 .footer-list {
     display: flex;
     justify-content: center;
-    gap: 3.95rem;
+    gap: 3.0rem;
     list-style: none;
     padding: 2em 0em;
     font-family: 'bbb', arial;
