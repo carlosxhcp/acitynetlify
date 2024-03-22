@@ -136,20 +136,20 @@ body {
     .name {
         font-family: 'bbb', Arial, Helvetica, sans-serif;
         margin-top: 7%;
-        margin-left: 18%;
+        margin-left: 15%;
         font-size: 2.5em
     }
 
     .price {
         font-family: 'caviar', Arial, Helvetica, sans-serif;
         margin-top: 5%;
-        margin-left: 35%;
-        font-size: 1.5em
+        margin-left: 40%;
+        font-size: 1.7em
     }
 
     .prod-btn {
         font-family: 'caviar', Arial, Helvetica, sans-serif;
-        margin-left: 22%;
+        margin-left: 15%;
         margin-top: 10%;
         font-size: .9em;
         color: #000;
@@ -157,6 +157,9 @@ body {
 
     .prod-btn button:nth-child(2) {
         margin-left: 0;
+    }
+    .prod-btn p {
+        margin-left: 15%;
     }
 
     .prod-btn button {
@@ -196,5 +199,10 @@ body {
 
     .prod-buy img {
         width: 5%;
+    }
+    .details {
+        margin-top: 15%;
+        margin-right: 10%;
+        margin-left: 10%;
     }
 }

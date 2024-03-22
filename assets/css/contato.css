@@ -4,6 +4,7 @@
     margin-right: 10%;
     margin-top: 6%;
     font-size: 1.1em;
+    
 }
 .email1 {
     font-family: arial;
@@ -14,18 +15,12 @@
 }
 
 
-
-.instagram-img {
-    float: left;
-    margin-right: 1%;
-    width: 4%;
-    margin-left: 10%;
-}
 .instagram1 {
     font-family: arial;
     font-size: 1.1em;
     color: black;
     text-decoration:underline;
+    
 }
 .instagram1 p {
     padding-top: 1%;
@@ -50,7 +45,7 @@
     font-family: arial;
     font-size: 1.1em;
     color: black;
-    margin-bottom: 15%;
+    margin-bottom: 20%;
     font-family: arial;
 }
 
@@ -97,6 +92,7 @@
         margin-right: 10%;
         margin-top: 5%;
         font-size: 1.1em;
+        
     }
     .horario1 {
         font-family: arial;
