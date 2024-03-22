@@ -1,3 +1,56 @@
-.carousel-control-prev{
-   
+main {
+    margin-top: 1.5%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.slide {
+    width: 100%;
+    height: 700px;
+}
+
+.swiper-button-prev {
+    margin-left: 400px;
+    color: black;
+}
+
+.swiper-button-next {
+    margin-right: 400px;
+    color: black;
+}
+
+.swiper-pagination {
+    color: black;
+}
+
+.swiper-slide {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media(max-width:870px) {
+    .slide {
+        width: 100%;
+        height: 500px;
+    }
+
+    main {
+        margin-top: -15%;
+        margin-bottom: -30%;
+    }
+    .swiper-button-prev {
+        margin-left: 3%;
+        color: black;
+    }
+    
+    .swiper-button-next {
+        margin-right: 3%;
+        color: black;
+    }
+
 }

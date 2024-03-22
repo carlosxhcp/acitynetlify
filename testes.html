@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+
+<style>
+    
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #fcfbff;
+  display: flex;
+  justify-content: center;
+}
+
+
+main {
+  height: 100vh;
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+span {
+  font-size: x-large;
+}
+
+img {
+  box-shadow: 0 1px 2px #0003;
+  width: 100%;
+}
+
+.swiper {
+  height: 500px;
+}
+
+.swiper-slide {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 450px) {
+  .swiper {
+    height: 270px;
+  }
+}
+</style>
+</head>
+<body>
+    <main>
+        <span>SLIDER</span>
+        <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="project-img">
+                  <img src="assets/img/lookbook/1.JPG" alt="Foto 01">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="project-img">
+                  <img src="assets/img/lookbook/2.JPG" alt="Foto 02">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="project-img">
+                  <img src="assets/img/lookbook/3.JPG" alt="Foto 03">
+                </div>
+              </div>
+            </div>
+          
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </main>
+    
+      <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+      <script src="assets/js/script.js"></script>
+</body>
+</html>
