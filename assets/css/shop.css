@@ -1,6 +1,6 @@
 .shop {
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin-top: 8%;
+    margin-bottom: 8%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -8,11 +8,6 @@
 }
 .produtos img {
     width: 300px;
-}
-
-.produtos p {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 0.9em;
 }
 
 .produtos {
@@ -25,8 +20,18 @@
 
 }
 .produtos:hover{
-    scale: 1.04;
+    scale: 1.02;
     transition: 0.2s;
+}
+.prod-name {
+    margin-top: 10px;
+    margin-bottom: -7px;
+    font-family: 'bbb',Arial, Helvetica, sans-serif;
+    font-size: 1.6em;
+}
+.prod-price {
+    font-family: 'caviar',Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
 }
 @media(max-width:1100px){
     .shop {
