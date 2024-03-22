@@ -159,7 +159,7 @@ body {
         margin-left: 0;
     }
     .prod-btn p {
-        margin-left: 15%;
+        margin-left: 5%;
     }
 
     .prod-btn button {
@@ -190,7 +190,7 @@ body {
 
     .prod-buy button {
         border: none;
-        margin-left: 22%;
+        margin-left: 20%;
         margin-top: 7%;
         padding: 10px 80px;
         background-color: rgb(231, 231, 231);
