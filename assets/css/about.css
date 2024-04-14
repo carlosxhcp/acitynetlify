@@ -1,0 +1,42 @@
+    .pag {
+        margin-top: 5%;
+        margin-bottom: 5%;
+        
+    }
+    .pagamento {
+        margin-left: 10%;
+        margin-right: 10%;
+        font-family: arial;
+        text-align: justify;
+        color: black;
+        font-size: 1.2em;
+    }
+
+    .pagamento2 {
+        margin-left: 12%;
+    }
+
+
+
+@media(max-width:870px) {
+    .pag {
+        margin-top: 10%;
+        margin-bottom: 20%
+    }
+    .pagamento {
+        margin-left: 10%;
+        margin-right: 10%;
+        font-family: arial;
+        text-align: justify;
+        color: black;
+        font-size: 1.2em;
+    }
+
+    .pagamento2 {
+        margin-left: 12%;
+        margin-right: 10%;
+        text-align: justify;
+        color: rgb(65, 65, 65);
+        font-family: arial;
+    }
+}
