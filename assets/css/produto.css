@@ -71,7 +71,7 @@ body {
 }
 
 
-.prod-btn button:focus {
+.prod-btn button:hover {
     background-color: #9a9a9a;
 }
 
